@@ -1,0 +1,104 @@
+body {
+    font-family: "Comfortaa", sans-serif;
+    text-align: center;
+    margin-top: 0px;
+  }
+
+  
+
+  /* <uniquifier>: Use a unique and descriptive class name */
+  /* <weight>: Use a value from 300 to 700 */
+  
+  .comfortaa {
+    font-family: "Comfortaa", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+  p{
+    padding: 10px;
+    font-family: "Comfortaa";
+    font-size: 1.5em;
+    font-weight:bold;
+
+  }
+
+  #timer{
+    display: none;
+  }
+
+
+  #reload {
+    display: none; /* Cache le bouton au début */
+    margin: 20px auto; /* Ajoute de l'espace autour du bouton */
+    text-align: center; /* Centre le bouton horizontalement */
+  }
+
+  header{
+    text-decoration: none;
+    padding: 10px;
+    font-family: "Comfortaa";
+    font-size: 2em;
+    color: #FFFFFF;
+    border: none;
+    background-color: #58CC02;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    box-shadow: 0px 4px 1px #58a701d9;
+    -webkit-box-shadow: 0px 4px 1px #58a701d9;
+    -moz-box-shadow: 0px 4px 1px #58a701d9;
+  }
+
+   input::placeholder {
+    font-family: "Comfortaa", sans-serif;
+  }
+
+  input{
+    text-decoration: none;
+    padding: 10px;
+    font-family: "Comfortaa";
+    font-size: 2em;
+    border: 2px solid #e5e5e5;
+    background-color: #ffffff;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    box-shadow: 0px 4px 1px #e5e5e5;
+    -webkit-box-shadow: 0px 4px 1px #e5e5e5;
+    -moz-box-shadow: 0px 4px 1px #e5e5e5;
+  }
+  
+  #game {
+    margin: 20px auto;
+    max-width: 300px;
+  }
+  
+  input, button {
+    font-size: 1.2em;
+    margin-top: 10px;
+  }
+
+  .btn {
+    cursor: pointer;
+    text-decoration: none;
+    padding: 10px;
+    font-family: "Comfortaa";
+    font-size: 1em;
+    color: #FFFFFF;
+    border: none;
+    background-color: #58CC02;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    box-shadow: 0px 4px 1px #58a701d9;
+    -webkit-box-shadow: 0px 4px 1px #58a701d9;
+    -moz-box-shadow: 0px 4px 1px #58a701d9;
+    }
+    
+
+    .btn:hover {
+        padding: 10px;
+        background-color: #92d050;
+        }
